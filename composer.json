@@ -1,0 +1,22 @@
+{
+    "name": "nixwins/welbextask",
+    "description": "test task fo welbex",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DOs ZH",
+            "email": "wdevdso@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "klein/klein": "dev-master",
+        "gabordemooij/redbean": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    }
+}
